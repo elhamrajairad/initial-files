@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  outline: none;
 }
 i {
   vertical-align: middle;
@@ -47,12 +48,7 @@ a {
   margin: 0 auto;
   max-width: 1700px;
 }
-.heading {
-  font-size: 3.8rem;
-  font-weight: 700;
-  line-height: 3.6rem;
-  margin-bottom: 1rem;
-}
+
 /* Container Media Query */
 @media only screen and (min-width: 576px) {
   .container {
